@@ -28,3 +28,19 @@ X, y = data.data, data.target
 results = compare_ml_models(X, y)
 
 print(results)
+
+X (Features):
+
+Shape: (150, 4)
+
+Contains: Numerical measurements of iris flowers
+
+Columns: ['sepal length', 'sepal width', 'petal length', 'petal width']
+
+y (Target):
+
+Shape: (150,)
+
+Contains: Class labels (0, 1, 2 representing different iris species)
+
+Values: 0='setosa', 1='versicolor', 2='virginica'
